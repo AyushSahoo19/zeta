@@ -177,7 +177,7 @@ Database Engineering|Data & Mathematics|PostgreSQL,Transactions,Query optimizati
 System Design|Systems & Foundations|Architecture,Replication,Consensus|Service decomposition;Distributed boundaries;Replicated state;Failure-mode reasoning|Learning platform architecture|systems
 FinTech Engineering|Data & Mathematics|QuantConnect,Portfolio analytics,Backtesting|Financial data basics;Portfolio calculations;Strategy simulation;Parameter robustness|Paper-trading analytics lab|quant
 AI Research Engineering|AI & Intelligence|PyTorch,Experiment tracking,Reproducibility|Tensor math foundations;Research model implementation;Controlled experiments;Advanced training systems|Reproducible model paper prototype|torch`;
-const palette=[['#e1f3eb','#386b58'],['#e6edf9','#486a99'],['#fcebdc','#a47448'],['#faf1cd','#9c822e'],['#e5edf4','#4b738c'],['#f7e4de','#9b6453'],['#e2f0e9','#497965'],['#eeeee1','#7b7b4e']];
+const palette=[['#c8f4df','#237655'],['#d2e4ff','#3268ab'],['#ffe0c9','#ad5b28'],['#fff1b8','#967419'],['#cdeffa','#2c7e9b'],['#ffd9d0','#ad5f4e'],['#d4f3d9','#307b49'],['#edf4c2','#687b23']];
 const categoryIcon={'AI & Intelligence':'brain','Systems & Foundations':'code','Data & Mathematics':'analytics','Security & Web3':'network','Cloud & Operations':'algorithm','Web & Applications':'code','Languages & Frameworks':'code','Hardware & Spatial':'robot','Design & Product':'book','Emerging Technologies':'network'};
 const domains=rows.split('\n').map((row,id)=>{
  const [name,category,skills,stages,project,ref]=row.split('|');
