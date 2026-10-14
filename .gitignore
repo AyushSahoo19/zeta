@@ -1,0 +1,18 @@
+# Local development and verification artifacts
+/site/
+/node_modules/
+/.env
+/.env.*
+/eval*
+/preview*
+/*-BRIEF.md
+/mobile.png
+/texture-*.png
+/workspace-*.png
+/zeta-*.png
+/course-*.png
+/courses-*.png
+/profile-analytics.png
+/resource-filters-final.png
+.DS_Store
+Thumbs.db
